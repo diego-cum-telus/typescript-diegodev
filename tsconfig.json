@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        // "target": "esnext",
+        "target": "ES5",
         "lib": ["dom", "es2017"],
-        "outDir": "./dist"
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
     },
 }
